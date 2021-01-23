@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Posicionamentos (absolute, fixed)</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+			/*
+
+			relative: alinha de acordo com a posição inicial do elemento.
+			
+			absolute: permite definir uma caixa que é removida do fluxo do documento e vc consegue alinhar essa caixa baseada no seu container que tenha uma posição
+
+			fixed: permite definir uma posição fixa com o navegador
+
+			*/
+
+			body{
+				background: #007fc7;
+			}
+
+			#container{
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 10px;
+				position: relative;
+			}
+
+			h1{
+				position: static;
+			}
+
+			p{
+				width: 300px;
+				position: static;
+			}
+
+			.fixed{
+				border: 1px solid red;
+				background: #f2f2f2;
+				margin: 0px;
+				position: fixed;
+				top: 0px;
+				right: 0px;
+			}
+
+			.absolute{
+				border: 1px solid red;
+				background: #f2f2f2;
+				position: absolute;
+				top: 80px;
+				right: 80px;
+			}
+
+			.relative{
+				border: 1px solid red;
+				position: relative;
+				/*top, right, bottom, left*/
+				top: 20px;
+				left: 80px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div id="container">
+
+			<h1>Posicionamentos</h1>
+			<p>
+				P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p class="fixed">
+				P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget condimentum ex. Donec fermentum est sapien, condimentum placerat lectus luctus sed.
+			</p>
+		</div>
+
+	</body>
+</html>
