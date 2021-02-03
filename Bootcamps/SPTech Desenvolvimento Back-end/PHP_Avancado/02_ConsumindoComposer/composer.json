@@ -1,0 +1,12 @@
+{
+    "name": "edora/02_consumindo-composer",
+    "authors": [
+        {
+            "name": "Rafael Sevilha",
+            "email": "54326621+edorafa@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "wead/digital-cep": "^1.0"
+    }
+}
