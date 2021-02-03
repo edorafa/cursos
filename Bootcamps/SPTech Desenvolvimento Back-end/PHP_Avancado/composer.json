@@ -1,0 +1,24 @@
+{
+    "name": "edora/php_avancado",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Sevilha",
+            "email": "54326621+edorafa@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "PHP_Avancado\\": "src/"
+        }
+    }
+}
